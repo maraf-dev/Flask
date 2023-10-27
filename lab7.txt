@@ -1,0 +1,38 @@
+Question 0: What is the URL of your python flask_restfull code on github???
+https://github.com/maraf-dev/Flask.git
+
+Question 1: How are Flask and Django different? What does Django provide for you that Flask does not?
+Flask provides flexibility and simplicity, while Django provides a more comprehensive development experience 
+with built-in features like an ORM, authentication, and admin interface.
+
+Question 2: What does REST stand for? When I say something is RESTful, what does that mean?
+REST stands for Representational State Transfer. When something is described as RESTful, it means 
+it adheres to the principles of REST architecture, which uses stateless, client-server communication 
+via standardized HTTP methods (GET, POST, PUT, DELETE).
+
+Question 3: What does CRUD stand for? For each letter in CRUD, give the associated HTTP method.
+CRUD stands for Create, Read, Update, and Delete. The associated HTTP methods for each operation are:
+Create: POST
+Read: GET
+Update: PUT or PATCH
+Delete: DELETE
+
+Question 4: What do HTTP 1XX Status Codes mean? HTTP 2xx? HTTP 3xx? HTTP 4xx? HTTP 5xx?
+HTTP 1XX Status Codes: indicate that the request was received/understood.
+HTTP 2XX Status Codes: indicate successful responses. 
+HTTP 3XX Status Codes: These are redirection responses.
+HTTP 4XX Status Codes: indicate client errors.
+HTTP 5XX Status Codes: indicate server errors.
+
+Question 5: What is an XSS attack? Provide one way a site can be vulneratble to an XSS attack.
+XSS (Cross-Site Scripting) attacks allow attackers to inject malicious scripts into web pages viewed by users.
+One way a site can be vulnerable to an XSS attack is by allowing user-generated content to be displayed on 
+web pages without proper validation.
+
+
+Question 6: What does CORS stand for? What situation in web application development will you need to implement 
+CORS protection?
+CORS stands for Cross-Origin Resource Sharing. CORS protection is needed in web application development when 
+a web page hosted on one domain makes requests for resources to a different domain using JavaScript.
+
+
